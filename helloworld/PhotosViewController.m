@@ -13,36 +13,40 @@
 @end
 
 @implementation PhotosViewController
+@synthesize photo;
+@synthesize scroll;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+	if (self) {
+		// Custom initialization
+	}
+	return self;
 }
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+	[super viewDidLoad];
 	// Do any additional setup after loading the view.
 	
-	[self getJsonData];
+	//[self getJsonData];
 }
 
 - (void)viewDidUnload
 {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
+	[self setPhoto:nil];
+	[self setScroll:nil];
+	[super viewDidUnload];
+	// Release any retained subviews of the main view.
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+	return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (void) getJsonData{
+- (void) getPhotoData{
 	NSURL *url = [NSURL URLWithString:@"http://www.flickr.com/services/rest/?method=flickr.groups.pools.getPhotos&group_id=51035641679@N01&format=json&api_key=2aa4ef551c23385d2fadab02c534f77f"];
 	NSData *data = [NSData dataWithContentsOfURL:url];
 	NSError *error;
@@ -53,13 +57,13 @@
 	if (json !=nil) {
 		NSLog(@"%@", json);
 		
-//		for	(NSDictionary *item in json){
-//			[lblCompanyName setText:	[item objectForKey:@"created_at"]];
-//			[lblCurrentPrice setText: [[item objectForKey:@"user"] objectForKey:@"location"]];
-//			
-//			//NSLog(@"%@", [item objectForKey:@"screen_name"]);
-//			NSLog(@"%@", [item objectForKey:@"user"] );
-//		}
+		//		for	(NSDictionary *item in json){
+		//			[lblCompanyName setText:	[item objectForKey:@"created_at"]];
+		//			[lblCurrentPrice setText: [[item objectForKey:@"user"] objectForKey:@"location"]];
+		//			
+		//			//NSLog(@"%@", [item objectForKey:@"screen_name"]);
+		//			NSLog(@"%@", [item objectForKey:@"user"] );
+		//		}
 	}
 	
 }

@@ -113,9 +113,13 @@ UIActivityIndicatorView *indc ;
 }
 
 - (IBAction)btnGenerate:(id)sender {
-	
-	CFStringRef strGUID = CFUUIDCreateString(nil, CFUUIDCreate(nil));
+	CFUUIDRef ref=CFUUIDCreate(nil);
+	CFStringRef strGUID = CFUUIDCreateString(nil,ref );
 	
 	[lblCode setText: [NSString stringWithFormat:@"%@", strGUID]];
+	
+	CFRelease(strGUID);
+	CFRelease(ref);
+
 }
 @end

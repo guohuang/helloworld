@@ -28,7 +28,6 @@
 		0DC1CFE4158809EC00CE8142 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1CFE3158809EC00CE8142 /* Default.png */; };
 		0DC1CFE615880A7F00CE8142 /* Present iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1CFE515880A7F00CE8142 /* Present iPhone.png */; };
 		0DC1CFE815880CD400CE8142 /* vacation_mogul_icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1CFE715880CD400CE8142 /* vacation_mogul_icon_57x57.png */; };
-		0DC1CFEA15880CDB00CE8142 /* vacation_mogul_icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1CFE915880CDB00CE8142 /* vacation_mogul_icon_57x57.png */; };
 		0DC1CFED1589524500CE8142 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC1CFEC1589524400CE8142 /* SecondViewController.m */; };
 		0DFD25EE1594E2DA00A65258 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFD25ED1594E2DA00A65258 /* EGORefreshTableHeaderView.m */; };
 		0DFD25F215950A5400A65258 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFD25F115950A5400A65258 /* PhotosViewController.m */; };
@@ -76,7 +75,6 @@
 		0DC1CFE3158809EC00CE8142 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0DC1CFE515880A7F00CE8142 /* Present iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Present iPhone.png"; path = "../../../Downloads/Present iPhone.png"; sourceTree = "<group>"; };
 		0DC1CFE715880CD400CE8142 /* vacation_mogul_icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vacation_mogul_icon_57x57.png; path = ../../../Downloads/vacation_mogul_icon_57x57.png; sourceTree = "<group>"; };
-		0DC1CFE915880CDB00CE8142 /* vacation_mogul_icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vacation_mogul_icon_57x57.png; sourceTree = "<group>"; };
 		0DC1CFEC1589524400CE8142 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = helloworld/SecondViewController.m; sourceTree = "<group>"; };
 		0DFD25EC1594E2DA00A65258 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshTableHeaderView.h; path = helloworld/EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
 		0DFD25ED1594E2DA00A65258 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshTableHeaderView.m; path = helloworld/EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				0D1B5D311589A9140078EB16 /* Controllers */,
-				0DC1CFE915880CDB00CE8142 /* vacation_mogul_icon_57x57.png */,
 				0DC1CFE3158809EC00CE8142 /* Default.png */,
 				0DA25F2D157FFC32002364A3 /* helloworld */,
 				0DA25F4E157FFC32002364A3 /* helloworldTests */,
@@ -293,7 +290,6 @@
 				0DC1CFE4158809EC00CE8142 /* Default.png in Resources */,
 				0DC1CFE615880A7F00CE8142 /* Present iPhone.png in Resources */,
 				0DC1CFE815880CD400CE8142 /* vacation_mogul_icon_57x57.png in Resources */,
-				0DC1CFEA15880CDB00CE8142 /* vacation_mogul_icon_57x57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface PhotosViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *photo;
+@property (weak, nonatomic) IBOutlet UIScrollView *scroll;
 
 @end

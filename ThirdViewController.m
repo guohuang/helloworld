@@ -73,17 +73,17 @@ NSArray *myDatasource;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	static NSString *CellIdentifier = @"Cell";
+	static NSString *CellIdentifier = @"cellX";
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-	if(cell == nil)
-	{
-		cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
-		
-		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-		
-		//[cell performSelector:@selector(cellSelected) withObject:nil];
-		
-	}
+//	if(cell == nil)
+//	{
+//		cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+//		
+//		cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+//		
+//		//[cell performSelector:@selector(cellSelected) withObject:nil];
+//		
+//	}
 	// Configure the cell...
 	//cell.textLabel.text = @"xxx";
 	NSDictionary *rowData = [myDatasource objectAtIndex:indexPath.row];
