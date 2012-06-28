@@ -22,15 +22,12 @@
 		0DA25F4B157FFC32002364A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA25F29157FFC32002364A3 /* Foundation.framework */; };
 		0DA25F53157FFC32002364A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DA25F51157FFC32002364A3 /* InfoPlist.strings */; };
 		0DA25F56157FFC32002364A3 /* helloworldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA25F55157FFC32002364A3 /* helloworldTests.m */; };
-		0DC1CFE11588095800CE8142 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1CFE01588095800CE8142 /* splash.png */; };
-		0DC1CFE615880A7F00CE8142 /* Present iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1CFE515880A7F00CE8142 /* Present iPhone.png */; };
-		0DC1CFE815880CD400CE8142 /* vacation_mogul_icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC1CFE715880CD400CE8142 /* vacation_mogul_icon_57x57.png */; };
 		0DC1CFED1589524500CE8142 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC1CFEC1589524400CE8142 /* SecondViewController.m */; };
 		0DC2230115990AD600946B43 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2230015990AD600946B43 /* ThirdViewController.m */; };
 		0DC2230415990AF100946B43 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2230315990AF100946B43 /* Util.m */; };
 		0DC2230615990B6800946B43 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DC2230515990B6800946B43 /* Default.png */; };
+		0DC22339159BA61B00946B43 /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC22338159BA61B00946B43 /* PictureViewController.m */; };
 		0DFD25EE1594E2DA00A65258 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFD25ED1594E2DA00A65258 /* EGORefreshTableHeaderView.m */; };
-		0DFD25F215950A5400A65258 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFD25F115950A5400A65258 /* PhotosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,19 +64,16 @@
 		0DA25F52157FFC32002364A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0DA25F54157FFC32002364A3 /* helloworldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloworldTests.h; sourceTree = "<group>"; };
 		0DA25F55157FFC32002364A3 /* helloworldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloworldTests.m; sourceTree = "<group>"; };
-		0DC1CFE01588095800CE8142 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../../../Downloads/splash.png; sourceTree = "<group>"; };
-		0DC1CFE515880A7F00CE8142 /* Present iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Present iPhone.png"; path = "../../../Downloads/Present iPhone.png"; sourceTree = "<group>"; };
-		0DC1CFE715880CD400CE8142 /* vacation_mogul_icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vacation_mogul_icon_57x57.png; path = ../../../Downloads/vacation_mogul_icon_57x57.png; sourceTree = "<group>"; };
 		0DC1CFEC1589524400CE8142 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = helloworld/SecondViewController.m; sourceTree = "<group>"; };
 		0DC222FF15990AD600946B43 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = helloworld/ThirdViewController.h; sourceTree = "<group>"; };
 		0DC2230015990AD600946B43 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = helloworld/ThirdViewController.m; sourceTree = "<group>"; };
 		0DC2230215990AF100946B43 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Util.h; path = helloworld/Util.h; sourceTree = "<group>"; };
 		0DC2230315990AF100946B43 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Util.m; path = helloworld/Util.m; sourceTree = "<group>"; };
 		0DC2230515990B6800946B43 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0DC22337159BA61B00946B43 /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		0DC22338159BA61B00946B43 /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
 		0DFD25EC1594E2DA00A65258 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshTableHeaderView.h; path = helloworld/EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
 		0DFD25ED1594E2DA00A65258 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshTableHeaderView.m; path = helloworld/EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
-		0DFD25F015950A5400A65258 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotosViewController.h; path = helloworld/PhotosViewController.h; sourceTree = "<group>"; };
-		0DFD25F115950A5400A65258 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotosViewController.m; path = helloworld/PhotosViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +114,8 @@
 				0DC1CFEC1589524400CE8142 /* SecondViewController.m */,
 				0D6976491593CF63001F3685 /* DetailViewController.h */,
 				0D69764A1593CF63001F3685 /* DetailViewController.m */,
-				0DFD25F015950A5400A65258 /* PhotosViewController.h */,
-				0DFD25F115950A5400A65258 /* PhotosViewController.m */,
+				0DC22337159BA61B00946B43 /* PictureViewController.h */,
+				0DC22338159BA61B00946B43 /* PictureViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -183,9 +177,6 @@
 		0DA25F2E157FFC32002364A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0DC1CFE715880CD400CE8142 /* vacation_mogul_icon_57x57.png */,
-				0DC1CFE515880A7F00CE8142 /* Present iPhone.png */,
-				0DC1CFE01588095800CE8142 /* splash.png */,
 				0DA25F2F157FFC32002364A3 /* helloworld-Info.plist */,
 				0DA25F30157FFC32002364A3 /* InfoPlist.strings */,
 				0DA25F33157FFC32002364A3 /* main.m */,
@@ -286,9 +277,6 @@
 				0DA25F32157FFC32002364A3 /* InfoPlist.strings in Resources */,
 				0DA25F3B157FFC32002364A3 /* MainStoryboard_iPhone.storyboard in Resources */,
 				0DA25F3E157FFC32002364A3 /* MainStoryboard_iPad.storyboard in Resources */,
-				0DC1CFE11588095800CE8142 /* splash.png in Resources */,
-				0DC1CFE615880A7F00CE8142 /* Present iPhone.png in Resources */,
-				0DC1CFE815880CD400CE8142 /* vacation_mogul_icon_57x57.png in Resources */,
 				0DC2230615990B6800946B43 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +319,7 @@
 				0D69764B1593CF63001F3685 /* DetailViewController.m in Sources */,
 				0DC2230115990AD600946B43 /* ThirdViewController.m in Sources */,
 				0DC2230415990AF100946B43 /* Util.m in Sources */,
+				0DC22339159BA61B00946B43 /* PictureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +329,6 @@
 			files = (
 				0DA25F56157FFC32002364A3 /* helloworldTests.m in Sources */,
 				0DFD25EE1594E2DA00A65258 /* EGORefreshTableHeaderView.m in Sources */,
-				0DFD25F215950A5400A65258 /* PhotosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,7 @@
 
 @synthesize window = _window;
 @synthesize isRetina;
+@synthesize GLOBAL_STRING;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

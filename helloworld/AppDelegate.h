@@ -13,6 +13,7 @@
 @property (strong, nonatomic) UIWindow *window;
 
 @property BOOL isRetina;
+@property NSString *GLOBAL_STRING;
 
 - (void)checkScreenType;
 
